@@ -1,0 +1,32 @@
+{
+  "dfx": "0.26.1",
+  "canisters": {
+    "backend": {
+      "specified_id": "uxrrr-q7777-77774-qaaaq-cai",
+      "main": "src/backend/src/index.ts",
+      "type": "azle",
+      "custom": {
+        "experimental": true
+      }
+    },
+    "frontend": {
+      "specified_id": "u6s2n-gx777-77774-qaaba-cai",
+      "dependencies": [
+        "backend"
+      ],
+      "source": [
+        "src/frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

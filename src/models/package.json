@@ -1,0 +1,16 @@
+{
+    "name": "models",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "dist/index.js",
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "scripts": {
+        "build": "npx tsc"
+    },
+    "devDependencies": {
+        "tsx": "^4.19.4",
+        "typescript": "^5.8.3"
+    }
+}
