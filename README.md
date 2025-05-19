@@ -130,6 +130,10 @@ The project is built around two primary models:
 
 #### Architecture components
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IsinBlockchainTeam/azle-typed-design-demo/main/images/architecture.png" alt="architecture" height="500"/>
+</p>
+
 The project architecture follows a layered approach with clear separation of concerns:
 
 - Entities: Core domain objects used within the backend and occasionally in frontend logic
