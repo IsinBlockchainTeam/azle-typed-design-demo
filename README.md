@@ -181,7 +181,6 @@ Follow these steps to seamlessly incorporate the azle-typed-design-demo into you
    ```sh
    cp src/frontend/.env.example src/frontend/.env
    ```
-4.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
